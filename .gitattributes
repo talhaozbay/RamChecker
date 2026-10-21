@@ -1,0 +1,9 @@
+* text=auto
+
+# cmd .bat dosyalarını LF satır sonuyla bazen yanlış çalıştırır
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+*.bin binary
+*.ico binary
+*.png binary

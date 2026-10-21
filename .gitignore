@@ -1,0 +1,19 @@
+# Derleme çıktısı — derle.bat ile üretilir; dağıtım için GitHub Releases kullanın
+*.exe
+*.dll
+*.pdb
+
+# Programın ürettiği raporlar ve dökümler (cihaza özel bilgi içerir: seri no, bilgisayar adı)
+*.html
+*.csv
+*.csv.bekleyen*
+RAM-Raporu-*
+dump*.bin
+
+# Editör / sistem
+.vs/
+.vscode/
+*.suo
+*.user
+Thumbs.db
+desktop.ini
